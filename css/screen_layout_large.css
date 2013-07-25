@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* Layout (global rules for all sizes) */
+
+body {
+	margin: 0; padding: 0;
+}
+header a.logo {
+	display: block;
+	position: absolute;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+
+}
+
+nav {
+	width: 100%;
+	display: block;
+	position: absolute;
+	background-color: #ffffff;
+}
+
+/* Layout Large Screens (default for older browsers) */
+
+header {
+	/*background-color: #fff;*/
+}
+
+.logo_menu {
+	background-color: #fff;
+	height: 108px;
+	padding: 10px;
+	margin-bottom: 30px;
+	width: 960px;
+}
+
+
+
+header a.logo {
+	float: left;
+	height: 108px;
+	background: url(../images/logo.png);
+	background-repeat: no-repeat; 
+	margin: 0px 0px 20px 0px;
+	/*padding:15px;*/
+	width: 288px;
+}
+
+header .header_image {
+	/*float: left;*/
+	height: 275px;
+	background: url(../images/banner_large.jpg); 
+	background-repeat: no-repeat; 
+	margin-bottom: 30px;
+	width: 980px; 
+	/*border: 10px solid #454545;*/
+}
+
+article { padding: 60px 20px 10px 20px;
+background-color: #fff;
+margin-top: 85px;}
+
+.proj_container { padding: 0px 0px 15px 20px; }
+.proj_container .proj {
+	width: 33%;
+	float: left;
+	background-position: 0px 3px;
+}
+.proj_container .proj .content { padding: 0px 30px 0px 70px; } 
+
+nav {
+	top: 453px;
+	text-align: right;
+}
+nav a { margin: 12px 20px 10px 20px;  }
+
+/**Media Queries**/
+@media screen and (max-width:990px) {
+	footer {padding-right:  20px;}
+}
+

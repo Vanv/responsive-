@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* Layout Medium Screens */
+
+header .header_image {
+	/*float: left;*/
+	height: 200px;
+	background: url(../images/banner_medium.jpg); 
+	background-repeat: no-repeat; 
+	margin-bottom: 30px;
+	width: 100%; 
+	/*border: 10px solid #454545;*/
+}
+
+.logo_menu {
+	width: 97%;
+}
+
+nav {
+	top: 380px;
+}
+
+nav a { margin-right: 20px;}
+
+.proj_container { padding: 0px 20px 15px 20px; }
+
+.proj_container .proj { background-position: 0px 0px; }
+
+.proj_container .proj .content { padding: 70px 30px 0px 0px; }
+
+body { background-image: none;}
+
+

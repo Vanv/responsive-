@@ -1,0 +1,35 @@
+/*Desktop Styles*/
+body {
+	background-color: #454545;
+}
+#main_wrapper{
+	margin: 0px auto;
+	height: 400px;
+	width: 960px;
+}
+
+
+
+/*Smaphone - IPHONE and other smaller devices*/
+/*@media only screen and (max-width: 480px) {*/
+
+/*USING EM*/
+@media only screen and (max-width: 30em) {
+	#main_wrapper {
+		background-color: green;
+	}
+
+}
+/*TABLET STYLES*/
+/*@media only screen and (min-width: 481px) and (max-width: 768px) {*/
+	@media only screen and (min-width: 30em) and (max-width: 48em) {
+	#main_wrapper{
+		background-color: red;
+	}
+}
+/*@media only screen and (min-width: 769px) {*/
+@media only screen and (min-width: 48em) {
+	#main_wrapper {
+		background-color: #fff;
+	}
+}
